@@ -1,6 +1,6 @@
 # sfomuseum-data-architecture-datasette
 
-Dockerfile for using SFO Museum architecture data with `datasette`.
+Dockerfile for using SFO Museum architecture data with `Datasette`.
 
 ## Set up
 
@@ -18,7 +18,7 @@ To launch the container you would type:
 $> docker run -it -p 8080:8001 sfomuseum-data-architecture
 ```
 
-And then to view the data open the following URL in your web browser:
+And then to view the data, in the Datasette web application, open the following URL in your web browser:
 
 ```
 http://localhost:8080
@@ -26,10 +26,16 @@ http://localhost:8080
 
 ## See also
 
-* https://datasette.readthedocs.io/en/stable/
-* https://github.com/simonw/datasette
+### SFO Museum
 
 * https://millsfield.sfomuseum.org/distributions/sqlite/
 * https://github.com/sfomuseum-data/
+
+### Datasette
+
+* https://datasette.readthedocs.io/en/stable/
+* https://github.com/simonw/datasette
+
+### Docker
 
 * https://www.docker.com
