@@ -24,6 +24,8 @@ And then to view the data, in the Datasette web application, open the following 
 http://localhost:8080
 ```
 
+_You can change port `8080` to whatever you want but make sure you do it in both the `docker run` command and the URL you visit in your web browser._
+
 ## See also
 
 ### SFO Museum
